@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: black;
+  color: white;
+}
+.container {
+  padding: 2rem;
+}
+h1, h2 {
+  color: white;
+}
+.tagline {
+  font-style: italic;
+  color: gray;
+}
+.nav a {
+  margin-right: 1rem;
+  color: white;
+}
+.slideshow {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.card {
+  background: #1a1a1a;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+}
+button {
+  background: white;
+  color: black;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.book-btn {
+  margin-top: 1rem;
+}
+input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
